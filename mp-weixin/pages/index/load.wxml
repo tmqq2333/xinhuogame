@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/load.gif"></image><view class="word _p"><block wx:for="{{holle}}" wx:for-item="item" wx:for-index="i"><label style="{{'animation-delay:'+(i*0.05+'s')+';'}}" class="_span">{{item}}</label></block></view></view>

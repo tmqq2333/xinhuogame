@@ -1,0 +1,44 @@
+
+.single-course {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.course-desc {
+	line-height: 140rpx;
+	padding-left: 50rpx;
+	width: 440rpx;
+}
+/* 点赞 */
+.course-oper {
+	width: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	border-left: #dbdbda dashed 2px;
+}
+.praise-ico{
+	width: 40rpx;
+	height: 40rpx;
+	-webkit-align-self: center;
+	        align-self: center;
+}
+.praise-me {
+	font-size: 14px;
+	color: #feab2a;
+	-webkit-align-self: center;
+	        align-self: center;
+}
+.animation-opacity{
+	font-weight: bold;
+	color: #feab2a;
+	opacity: 0;   /* 备注： 默认透明度为 0，不显示 */
+}
+

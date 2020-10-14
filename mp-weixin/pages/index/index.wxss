@@ -1,0 +1,629 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main */
+.content {
+	width: 100vw;
+	height: 81vh;
+	/* background-color: #3F536E; */
+	padding-top: 12vh;
+}
+.conmain {
+	margin: 0 auto;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding: 1vw 1vw;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 40vh;
+	height: 40vh;
+	background-color: #bbada0;
+	-webkit-border-radius: 2.3vh;
+	        border-radius: 2.3vh;
+}
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	height: 40vh;
+	width: 8vh;
+}
+.item {
+	width: 8vh;
+	height: 8vh;
+	line-height: 8vh;
+	text-align: center;
+	-webkit-border-radius: 1vh;
+	        border-radius: 1vh;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #777765;
+	 background-color: #ccc0b3;
+}
+
+/* main结束 */
+
+/* 按钮 */
+.click {
+	width: 2em;
+	height: 2em;
+	background-color: red;
+}
+.nonempty {
+	-webkit-animation: long 6s;
+	        animation: long 6s;
+}
+
+/* 按钮finally */
+
+/* 动画 */
+.change{
+	
+	-webkit-animation: cell 0.3s;
+	
+	        animation: cell 0.3s;
+}
+@-webkit-keyframes cell {
+from {
+		opacity: 0;
+		-webkit-transform: scale(0, 0);
+		        transform: scale(0, 0);
+}
+to {
+		opacity: 1;
+		-webkit-transform: scale(1, 1);
+		        transform: scale(1, 1);
+}
+}
+@keyframes cell {
+from {
+		opacity: 0;
+		-webkit-transform: scale(0, 0);
+		        transform: scale(0, 0);
+}
+to {
+		opacity: 1;
+		-webkit-transform: scale(1, 1);
+		        transform: scale(1, 1);
+}
+}
+@-webkit-keyframes long {
+from {
+
+		-webkit-transform: scale(1, 1);
+
+		        transform: scale(1, 1);
+}
+to {
+
+		-webkit-transform: scale(1.5, 1.5);
+
+		        transform: scale(1.5, 1.5);
+}
+}
+@keyframes long {
+from {
+
+		-webkit-transform: scale(1, 1);
+
+		        transform: scale(1, 1);
+}
+to {
+
+		-webkit-transform: scale(1.5, 1.5);
+
+		        transform: scale(1.5, 1.5);
+}
+}
+
+/* 动画结束 */
+
+/* logo title */
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+.text-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
+/* logo title结束 */
+

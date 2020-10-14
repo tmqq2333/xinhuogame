@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/load",
+    "pages/index/good",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "炘火2048",
+    "navigationBarBackgroundColor": "#009fb7",
+    "backgroundColor": "#009fb7"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

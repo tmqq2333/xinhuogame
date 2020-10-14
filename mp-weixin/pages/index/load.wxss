@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media  (min-device-height:400px) and (max-device-height:500px) {
+    .content {height:90.8vh;}
+	
+}
+@media  (min-device-height:500px) and (max-device-height:600px) {
+    .content {height:92.2vh;}
+	
+}
+@media  (min-device-height:600px) and (max-device-height:700px) {
+    .content {height:93.3vh;}
+	
+}
+@media  (min-device-height:700px) and (max-device-height:800px) {
+    .content {height:100vh;}
+	
+}
+@media  (min-device-height:800px) and (max-device-height:900px) {
+    .content {height:97.6vh;}
+	
+}
+@media  (min-device-height:900px) and (max-device-height:1100px) {
+    .content {height:95.6vh;}
+	
+} */
+page{
+	background-color: #009fb7;
+}
+/* .content{
+	
+	width: 100vw;
+	height:100vh;
+} */
+.logo{
+	margin: 0 auto;
+	width: 100vw;
+	height: 67vh;
+}
+.word{
+	
+	width:80vw;
+	height: 6vh;
+	/* background: linear-gradient(45deg,blue 15%,pink 60%); */
+	background:-webkit-linear-gradient(135deg,transparent 5vh,#58a 0)right,
+	-webkit-linear-gradient(45deg,transparent 5vh,#65d 0)left;
+	background:linear-gradient(-45deg,transparent 5vh,#58a 0)right,
+	linear-gradient(45deg,transparent 5vh,#65d 0)left;
+	background-repeat: no-repeat;
+	background-size: 50% 100%;
+	border: 1vh solid rgba(255,255,255,0.5);
+	background-clip: padding-box;
+	margin:0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap:nowrap;
+	        flex-wrap:nowrap;
+	font-size: 1em;
+	font-weight: 600;
+	color: white;
+	font-family: Lora, serif;
+	white-space: pre;
+}
+.word ._span{
+	-webkit-animation: landIn 0.8s ease-out both;
+	        animation: landIn 0.8s ease-out both;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-left: 0.03em;
+}
+@-webkit-keyframes landIn {
+from {
+					opacity: 0;
+					-webkit-transform: translateY(-20%);
+					        transform: translateY(-20%);
+}
+to {
+					opacity: 1;
+					-webkit-transform: translateY(0);
+					        transform: translateY(0);
+}
+}
+@keyframes landIn {
+from {
+					opacity: 0;
+					-webkit-transform: translateY(-20%);
+					        transform: translateY(-20%);
+}
+to {
+					opacity: 1;
+					-webkit-transform: translateY(0);
+					        transform: translateY(0);
+}
+} 
+
+
